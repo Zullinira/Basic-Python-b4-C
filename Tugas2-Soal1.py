@@ -10,9 +10,9 @@ def daftar_kontak():
     if len(namakontak)<=0:
         print("Belum ada data kontak siapapun")
     else:
-        #for jumlah in (namakontak):
-            print("Nama = {}".format(namakontak))
-            print("No Telepon = {}".format(nokontak))
+        for i in range(len(namakontak)):
+            print("Nama = {}".format(namakontak[i]))
+            print("No Telepon = {}".format(nokontak[i]))
         
 #fungsi untuk menambahkan kontak
 def tambah_kontak():
